@@ -11,8 +11,6 @@ function speak(text) {
     text_speak.lang = "hi-GB";
     window.speechSynthesis.speak(text_speak);
 }
-
-// Greeting function
 function greet() {
     let day = new Date();
     let hours = day.getHours();
